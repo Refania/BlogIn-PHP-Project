@@ -1,0 +1,144 @@
+/* Genel stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Üst bar stili */
+header {
+    background-color: #007bff; /* Mavi */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-left {
+    flex: 1;
+}
+
+.navbar-right {
+    flex: 2;
+    text-align: right;
+}
+
+.navbar-right a {
+    color: #fff; /* Beyaz */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.navbar-right a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    max-height: 40px; /* Logo yüksekliğini ayarlayın */
+}
+
+/* Konteyner stili */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Form stili */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Blog gönderisi stili */
+.blog-post {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.blog-post h3 {
+    margin-top: 0;
+}
+
+/* Blog resim stili */
+.blog-image {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.blog-image img {
+    max-width: 150px; /* Görsel boyutunu ayarlayın */
+    border-radius: 4px;
+}
+/* Blog ekle butonu stili */
+.new-blog-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25ba40; /* Buton rengi */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.new-blog-button:hover {
+    background-color: #22cd31;
+}
+
+/* Butonu sağ tarafa hizalama */
+.right-align {
+    text-align: right;
+    margin-top: 20px; /* Üstten biraz boşluk ekleyebilirsiniz */
+}
